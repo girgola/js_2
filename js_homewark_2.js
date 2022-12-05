@@ -11,9 +11,10 @@
     }
 
     for (let key in obj) {
+        if (key == 'tbilisi') {
+            console.log(`${(key)} is ${obj.tbilisi}`)
+        }
 
-        let printInfo = `${(key)} is ${obj.tbilisi}`
-        console.log(printInfo)
     }
 }
 {
@@ -45,7 +46,7 @@
 
     for (let z of array2) {
         if (z == 5) {
-            console.log(z);
+            console.log('არის');
             break;
         }
     }
